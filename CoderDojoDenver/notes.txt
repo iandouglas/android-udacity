@@ -1,0 +1,90 @@
+Suggested App Ideas
+Details about a small business in your neighborhood
+Contact info and description about your workplace or school
+Info about a special interest group (like a club or sports team) you’re part of and how new members can sign up
+Requirements
+Your design must include:
+
+At least one photo representing the business
+Business Name
+Phone number or email address for the business
+Address of the Business
+Optional components
+
+Website for the business
+Hours of operation
+Note: This is not required but If you’re up for a making real impact in your community, go check out an actual local business and obtain their consent to build an app for them!
+
+
+
+
+
+Create an XML document
+To complete this project, you will need to create an XML document. We encourage you to use Android Studio to complete this part of the project, as it has auto-complete features for creating XML tags.
+
+Include a ViewGroup
+Be sure to include a ViewGroup (RelativeLayout or LinearLayout) and enough views (Image, Text, or Button views) to complete the project. Check your project against the rubric linked on the next page.
+
+
+
+
+Clean your Build
+Before submitting, please follow the instructions for cleaning your project files. This removes some temporary files and greatly decreases the size of your project.
+
+ 
+
+Review the Project Rubric
+Udacity reviewers will be reviewing your project based on the project rubric. All specifications must be met to pass the project.
+
+ 
+
+Final Submission Checklist
+Before submitting your project for evaluation, we recommend that you check that each of the following is true:
+
+Your app compiles and runs as expected.
+You are proud of your app and its output.
+You completed this project according to instructions.
+You cleaned the project using the instructions above.
+You checked your project against the rubric.
+Zip your Project for Submission
+Be sure to zip your whole android project only after you have cleaned it.
+
+
+
+https://review.udacity.com/#!/rubrics/133/view
+
+Content Review
+CRITERIA
+Design includes all specified business criteria
+MEETS SPECIFICATIONS
+Name, Address, Phone Number, Description, and at least one photo representing the business is displayed.
+
+
+Functionality
+CRITERIA
+Program compiles and runs on a phone
+MEETS SPECIFICATIONS
+Program must function in Android Studio emulator and on a phone. Upon launching on a phone, the card appears.
+
+CRITERIA
+Content does not appear "cut off"
+MEETS SPECIFICATIONS
+Layout scales responsively for screen sizes in portrait mode, with no part of any images only partially visible. Student is not responsible for responsive design in landscape mode.
+
+
+Code Review
+CRITERIA
+At least one View Group is included
+MEETS SPECIFICATIONS
+XML must include a Relative Layout and/or a Linear Layout
+
+CRITERIA
+View Groups contain at least one image view and at least one text view
+MEETS SPECIFICATIONS
+Must have one or more image views or text views.
+
+CRITERIA
+Elements and Text on screen are in appropriate units
+MEETS SPECIFICATIONS
+Elements are specified in dp, text is specified in sp.
+

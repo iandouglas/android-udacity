@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoderDojo Denver</string>
+    <string name="welcome">CoderDojo Denver</string>
+    <string name="description">CoderDojo is a community driven global network of free and inclusive
+        technology clubs and classes for kids. CoderDojo Denver is volunteer run and community
+        supported. We hold classes throughout the Denver community</string>
+
+    <string name="location_header">Location</string>
+    <string name="location">Regis University\nAnnex A-2, Room A185\n3333 Regis Blvd\nDenver, CO
+        80221</string>
+
+    <string name="register_header">Registration</string>
+    <string name="register">coderdojodenver.com</string>
+
+    <string name="hours_header">Hours of Operation</string>
+    <string name="hours">Saturdays, 1pm-3pm\n(check web site for dates)</string>
+</resources>

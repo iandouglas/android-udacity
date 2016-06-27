@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/coderdojo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/background"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/coderdojo_logo"
+            android:padding="16dp"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/description"
+            android:text="@string/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:background="#7F000000"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_alignParentRight="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        android:background="#7F000000"
+        >
+        <TextView
+            android:id="@+id/location_header"
+            android:text="@string/location_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-condensed" />
+        <TextView
+            android:layout_below="@id/location_header"
+            android:id="@+id/location"
+            android:text="@string/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <TextView
+            android:layout_below="@id/location"
+            android:id="@+id/register_header"
+            android:text="@string/register_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <TextView
+            android:layout_below="@id/register_header"
+            android:id="@+id/register"
+            android:text="@string/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+
+        <TextView
+            android:layout_below="@id/register"
+            android:id="@+id/hours_header"
+            android:text="@string/hours_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:paddingTop="4dp"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <TextView
+            android:layout_below="@id/hours_header"
+            android:id="@+id/hours"
+            android:text="@string/hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
