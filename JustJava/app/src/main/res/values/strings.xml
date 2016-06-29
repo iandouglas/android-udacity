@@ -2,5 +2,6 @@
     <string name="app_name">Just Java</string>
 
     <string name="quantity_label">Quantity</string>
+    <string name="price_label">Total Cost</string>
     <string name="order_button">Order</string>
 </resources>
